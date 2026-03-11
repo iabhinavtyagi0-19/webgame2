@@ -1,0 +1,81 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+}
+
+.div1 {
+  padding: 12px;
+  margin-bottom: 20px;
+  width: auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.div1:hover {
+  background: lightgreen;
+  transform: scale(1.1);
+}
+
+.t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  height: 40px;
+  padding: 6px 12px;
+  background-color: grey;
+  color: wheat;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.t:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.start,
+.p {
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start {
+  background-color: plum;
+}
+
+.start:hover {
+  background-color: blueviolet;
+  transform: scale(1.07);
+}
+
+.p {
+  background-color: lightgreen;
+}
+
+.p:hover {
+  background-color: greenyellow;
+  transform: scale(1.07);
+}
+
+.red {
+  color: red;
+  font-weight: 800;
+}
