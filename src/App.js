@@ -301,11 +301,11 @@ export default function App() {
             value={user}
             disabled={res}
             placeholder="Write in Lower Case"
-            onChange={(e) => setuser(e.target.value)}
+            onChange={(e) => setuser(e.target.value.toLowerCase().trim())}
           />
-          <button className="p" onClick={Procreed}>
+          <div>{!res&& <button className="p" onClick={Procreed}>
             Procreed
-          </button>
+          </button> }</div>
         </div>
       )}
 
